@@ -30,9 +30,8 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <span class="brand-icon">
-            <img src="assets/img/company-logos/透明-純LOGO.png" alt="湛盧科技 Logo">
+            <img src="assets/img/company-logos/logo-horizontal.png" alt="湛盧科技 橫式 Logo" class="navbar-logo">
           </span>
-          <span>湛盧科技</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="切換導覽列">
           <i class="bi bi-list fs-4"></i>
@@ -128,8 +127,8 @@
             © ${new Date().getFullYear()} 湛盧科技有限公司 Zhan-Lu Technology Co., Ltd. 版權所有。
           </div>
           <div class="footer-legal-links">
-            <a href="#">隱私政策</a>
-            <a href="#">服務條款</a>
+            <a href="privacy-policy.html">隱私政策</a>
+            <a href="terms.html">服務條款</a>
           </div>
         </div>
       </div>

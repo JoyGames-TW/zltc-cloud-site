@@ -8,7 +8,7 @@
 - **尺寸**: 1200 x 630 像素（Facebook/LinkedIn 推薦）
 - **檔案大小**: < 8 MB
 - **內容建議**:
-  - 湛盧科技 Logo（使用 `透明-LOGO帶公司名.png` 或 `透明-橫式LOGO.png`）
+  - 湛盧科技 Logo（使用 `logo-full.png` 或 `logo-horizontal.png`）
   - 公司標語或主要服務說明
   - 保持簡潔、專業的設計
   - 使用品牌色系（#006D77, #00B4BE）
@@ -20,7 +20,7 @@
 ## 如何建立
 
 1. 使用設計工具（如 Figma、Canva、Adobe Photoshop）建立 1200x630 的圖片
-2. 加入公司 Logo（建議使用 `assets/img/company-logos/透明-LOGO帶公司名.png`）
+2. 加入公司 Logo（建議使用 `assets/img/company-logos/logo-full.png`）
 3. 加入標語文字（例如：「專業醫療資訊系統與資料視覺化解決方案」）
 4. 匯出為 PNG 格式
 5. 將檔案命名為 `og-image.png` 並放在 `assets/img/` 資料夾
