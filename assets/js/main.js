@@ -74,7 +74,10 @@
         <div class="row g-4">
           <!-- Company Info -->
           <div class="col-lg-4 col-md-6">
-            <div class="footer-brand">湛盧科技有限公司</div>
+            <div class="footer-brand">
+              <img src="assets/img/company-logos/logo-mark.png" style="height: 48px;">
+              湛盧科技有限公司
+            </div>
             <div class="footer-brand-en">Zhan-Lu Technology Co., Ltd. (ZLTC)</div>
             <p class="mb-0" style="font-size: 0.9375rem;">
               專注醫療資訊系統與資料視覺化，以及跨平台軟體開發的科技公司。
@@ -107,15 +110,15 @@
           <div class="col-lg-3 col-md-6">
             <h5 class="footer-title">聯絡我們</h5>
             <div class="footer-contact-item">
-              <i class="bi bi-envelope"></i>
+              <i class="bi bi-envelope" style="margin-top: -0.125rem;"></i>
               <a href="mailto:joygames.tw@gmail.com">joygames.tw@gmail.com</a>
             </div>
             <div class="footer-contact-item">
-              <i class="bi bi-geo-alt"></i>
+              <i class="bi bi-geo-alt" style="margin-top: -0.125rem;"></i>
               <span>台灣</span>
             </div>
             <div class="footer-contact-item">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-clock" style="margin-top: -0.125rem;"></i>
               <span>週一至週五 09:00 - 18:00</span>
             </div>
           </div>
