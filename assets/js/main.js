@@ -29,7 +29,9 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <span class="brand-icon">ZL</span>
+          <span class="brand-icon">
+            <img src="assets/img/company-logos/透明-純LOGO.png" alt="湛盧科技 Logo">
+          </span>
           <span>湛盧科技</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="切換導覽列">
