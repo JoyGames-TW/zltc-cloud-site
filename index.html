@@ -1,43 +1,401 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 <head>
   <meta charset="UTF-8">
-  <title>Coming Soon</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      background-color: #121212;
-      color: #ffffff;
-      font-family: "Arial", sans-serif;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3.5rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.5rem;
-      color: #bbbbbb;
-    }
-	img {
-      width: 200px;
-	  margin-top: -200px;
-	  margin-bottom: 100px;
-	}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>湛盧科技 ZLTC | 醫療資訊系統與資料視覺化專家</title>
+  <meta name="description" content="湛盧科技有限公司 (ZLTC) 專注於醫療資訊系統、病理系統、醫療儀器數據儀表板開發，以及跨平台軟體與手機遊戲研發，為醫療機構提供可靠的數位解決方案。">
+  <meta name="keywords" content="湛盧科技,ZLTC,醫療資訊系統,病理系統,數據儀表板,醫療軟體,手機遊戲開發">
+  <meta name="author" content="湛盧科技有限公司">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://zltc-cloud.net/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zltc-cloud.net/">
+  <meta property="og:title" content="湛盧科技 ZLTC | 醫療資訊系統與資料視覺化專家">
+  <meta property="og:description" content="專注於醫療資訊系統、病理系統、醫療儀器數據儀表板開發，以及跨平台軟體與手機遊戲研發。">
+  <meta property="og:image" content="https://zltc-cloud.net/assets/img/og-image.png">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://zltc-cloud.net/">
+  <meta name="twitter:title" content="湛盧科技 ZLTC | 醫療資訊系統與資料視覺化專家">
+  <meta name="twitter:description" content="專注於醫療資訊系統、病理系統、醫療儀器數據儀表板開發，以及跨平台軟體與手機遊戲研發。">
+  <meta name="twitter:image" content="https://zltc-cloud.net/assets/img/og-image.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  
+  <!-- Google Fonts - Noto Sans TC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body>
-<img src="ZLTC.png"/>
-  <h1>Coming Soon</h1>
-  <p>We're under construction. Please check back for an update soon.</p>
+<body data-page="home">
+  
+  <!-- Navbar Placeholder -->
+  <div id="navbar-placeholder"></div>
+  
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="hero-title reveal">
+            專業醫療資訊系統<br>
+            <span class="highlight">可靠的數位夥伴</span>
+          </h1>
+          <p class="hero-subtitle reveal reveal-delay-1">
+            湛盧科技專注於醫療資訊系統與資料視覺化解決方案，協助醫療機構提升作業效率、強化決策品質，並確保系統的穩定與安全。
+          </p>
+          <div class="d-flex flex-wrap gap-3 reveal reveal-delay-2">
+            <a href="contact.html" class="btn btn-primary-custom btn-lg">
+              <i class="bi bi-envelope me-2"></i>聯絡我們
+            </a>
+            <a href="products.html" class="btn btn-outline-custom btn-lg">
+              <i class="bi bi-grid me-2"></i>查看產品
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-visual reveal reveal-delay-2">
+            <div class="hero-visual-shape mx-auto">
+              <div class="hero-visual-inner">
+                <i class="bi bi-hospital"></i>
+                <span>醫療科技解決方案</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Client Reference Wall -->
+  <section class="client-wall bg-pattern section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-center reveal">值得信賴的合作夥伴</h2>
+        <p class="section-subtitle mx-auto reveal reveal-delay-1">
+          我們很榮幸與多家醫療機構建立合作關係，協助提升其醫療資訊化水準
+        </p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-3 col-md-6 reveal reveal-delay-1">
+          <div class="client-badge">
+            <span>高雄醫學大學附設中和紀念醫院</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 reveal reveal-delay-2">
+          <div class="client-badge">
+            <span>臺北榮民總醫院</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 reveal reveal-delay-3">
+          <div class="client-badge">
+            <span>中國醫藥大學附設醫院</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 reveal reveal-delay-4">
+          <div class="client-badge">
+            <span>正大醫院</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Core Capabilities -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-center reveal">核心能力</h2>
+        <p class="section-subtitle mx-auto reveal reveal-delay-1">
+          整合技術專業與產業經驗，為企業提供全方位的軟體開發服務
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="card-custom">
+            <div class="card-icon">
+              <i class="bi bi-clipboard2-pulse"></i>
+            </div>
+            <h3 class="card-title-custom">醫療資訊系統</h3>
+            <p class="card-text-custom">
+              深耕醫療產業，提供病理系統、檢驗流程管理等專業解決方案，符合醫療機構的作業需求與法規要求。
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-1">
+          <div class="card-custom">
+            <div class="card-icon">
+              <i class="bi bi-bar-chart-line"></i>
+            </div>
+            <h3 class="card-title-custom">資料視覺化</h3>
+            <p class="card-text-custom">
+              將複雜的醫療儀器數據轉化為直覺的儀表板與報表，協助管理者快速掌握關鍵指標與趨勢。
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-2">
+          <div class="card-custom">
+            <div class="card-icon">
+              <i class="bi bi-phone"></i>
+            </div>
+            <h3 class="card-title-custom">跨平台開發</h3>
+            <p class="card-text-custom">
+              具備手機應用程式與遊戲開發經驗，從企劃、設計到開發上線，提供完整的產品交付服務。
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-1">
+          <div class="card-custom">
+            <div class="card-icon card-icon-light">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h3 class="card-title-custom">資安與可靠性</h3>
+            <p class="card-text-custom">
+              重視系統安全性與穩定性，採用業界標準的資安實踐，確保客戶資料的安全與服務的持續可用。
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-2">
+          <div class="card-custom">
+            <div class="card-icon card-icon-light">
+              <i class="bi bi-arrows-expand"></i>
+            </div>
+            <h3 class="card-title-custom">彈性擴充</h3>
+            <p class="card-text-custom">
+              系統架構設計考量未來成長需求，支援模組化擴充與功能升級，降低長期維護成本。
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-3">
+          <div class="card-custom">
+            <div class="card-icon card-icon-light">
+              <i class="bi bi-headset"></i>
+            </div>
+            <h3 class="card-title-custom">專業維運</h3>
+            <p class="card-text-custom">
+              提供完善的售後服務與技術支援，確保系統運作順暢，客戶無後顧之憂。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Solutions Teaser -->
+  <section class="section-padding bg-gradient-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-center reveal">解決方案</h2>
+        <p class="section-subtitle mx-auto reveal reveal-delay-1">
+          針對不同場景需求，提供量身打造的解決方案
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="value-card">
+            <i class="bi bi-speedometer2"></i>
+            <h4>效率提升</h4>
+            <p>優化作業流程，減少人工操作，讓醫護人員專注於核心醫療工作。</p>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal reveal-delay-1">
+          <div class="value-card">
+            <i class="bi bi-diagram-3"></i>
+            <h4>系統整合</h4>
+            <p>整合各類醫療資訊系統與儀器設備，打破資料孤島，實現資訊共享。</p>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal reveal-delay-2">
+          <div class="value-card">
+            <i class="bi bi-eye"></i>
+            <h4>數據可視化</h4>
+            <p>即時呈現關鍵業務指標，支援數據驅動的決策制定。</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5 reveal">
+        <a href="solutions.html" class="btn btn-outline-custom">
+          瞭解更多解決方案 <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Products Highlight -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-center reveal">產品服務</h2>
+        <p class="section-subtitle mx-auto reveal reveal-delay-1">
+          我們提供專業的軟體產品與客製化開發服務
+        </p>
+      </div>
+      <div class="row g-4">
+        <!-- Pathology System -->
+        <div class="col-lg-4 reveal">
+          <div class="product-card">
+            <div class="product-card-image">
+              <i class="bi bi-file-medical"></i>
+            </div>
+            <div class="product-card-body">
+              <span class="product-card-category">醫療資訊系統</span>
+              <h3 class="product-card-title">病理系統</h3>
+              <ul class="product-card-features">
+                <li>支援病理作業流程與資訊管理</li>
+                <li>提升跨部門協作效率</li>
+                <li>強化資料一致性與可追溯性</li>
+              </ul>
+              <a href="products.html#pathology" class="btn btn-outline-custom btn-sm">
+                瞭解更多 <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Medical Dashboard -->
+        <div class="col-lg-4 reveal reveal-delay-1">
+          <div class="product-card">
+            <div class="product-card-image" style="background: linear-gradient(135deg, #2d8a9e 0%, #3ba3b8 100%);">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <div class="product-card-body">
+              <span class="product-card-category">資料視覺化 / BI</span>
+              <h3 class="product-card-title">醫療儀器數據儀表板</h3>
+              <ul class="product-card-features">
+                <li>即時呈現關鍵指標與趨勢</li>
+                <li>可視化報表與決策支援</li>
+                <li>強調可靠性與可擴充性</li>
+              </ul>
+              <a href="products.html#dashboard" class="btn btn-outline-custom btn-sm">
+                瞭解更多 <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Mobile Game Development -->
+        <div class="col-lg-4 reveal reveal-delay-2">
+          <div class="product-card">
+            <div class="product-card-image" style="background: linear-gradient(135deg, #083550 0%, #0d4a6f 100%);">
+              <i class="bi bi-controller"></i>
+            </div>
+            <div class="product-card-body">
+              <span class="product-card-category">遊戲研發</span>
+              <h3 class="product-card-title">手機遊戲開發</h3>
+              <ul class="product-card-features">
+                <li>跨平台遊戲開發與上線經驗</li>
+                <li>從企劃到系統整合的完整交付</li>
+                <li>專業開發流程與品質控管</li>
+              </ul>
+              <a href="products.html#game" class="btn btn-outline-custom btn-sm">
+                瞭解更多 <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Case Studies Teaser -->
+  <section class="section-padding bg-pattern">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-center reveal">成功案例</h2>
+        <p class="section-subtitle mx-auto reveal reveal-delay-1">
+          透過實際案例，展示我們的專業能力與服務品質
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="case-card">
+            <span class="case-card-tag">醫療系統</span>
+            <h3 class="case-card-title">醫學中心病理資訊系統</h3>
+            <p class="case-card-desc">
+              為大型醫學中心導入病理資訊系統，整合檢體追蹤、報告產製與跨部門協作流程。
+            </p>
+            <div class="case-card-result">
+              <div class="case-card-result-label">成效</div>
+              <div class="case-card-result-value">作業效率顯著提升</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal reveal-delay-1">
+          <div class="case-card">
+            <span class="case-card-tag">資料視覺化</span>
+            <h3 class="case-card-title">醫療儀器數據監控平台</h3>
+            <p class="case-card-desc">
+              建置醫療儀器數據收集與視覺化平台，提供即時監控與歷史趨勢分析功能。
+            </p>
+            <div class="case-card-result">
+              <div class="case-card-result-label">成效</div>
+              <div class="case-card-result-value">管理效能大幅改善</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal reveal-delay-2">
+          <div class="case-card">
+            <span class="case-card-tag">跨平台研發</span>
+            <h3 class="case-card-title">行動應用程式開發專案</h3>
+            <p class="case-card-desc">
+              提供從概念發想到產品上架的全程服務，確保專案如期交付並符合品質標準。
+            </p>
+            <div class="case-card-result">
+              <div class="case-card-result-label">成效</div>
+              <div class="case-card-result-value">順利完成產品上線</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5 reveal">
+        <a href="case-studies.html" class="btn btn-outline-custom">
+          查看更多案例 <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Banner -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <div class="cta-banner-content text-center">
+          <h3>準備好開始合作了嗎？</h3>
+          <p>無論是醫療資訊系統、資料視覺化或跨平台開發需求，我們都期待與您討論</p>
+          <a href="mailto:joygames.tw@gmail.com" class="btn btn-white btn-lg">
+            <i class="bi bi-envelope me-2"></i>立即聯繫我們
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+  
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

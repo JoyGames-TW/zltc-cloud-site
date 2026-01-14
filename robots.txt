@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://zltc-cloud.net/sitemap.xml
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+
+# Allow all search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay (optional, for being polite to servers)
+# Crawl-delay: 10
