@@ -73,7 +73,7 @@
       <div class="container">
         <div class="row g-4">
           <!-- Company Info -->
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-5 col-md-6">
             <div class="footer-brand">
               <img src="assets/img/company-logos/logo-mark.png" style="height: 48px;">
               湛盧科技有限公司
@@ -92,17 +92,17 @@
               <li><a href="products.html">產品</a></li>
               <li><a href="case-studies.html">案例</a></li>
               <li><a href="about.html">關於我們</a></li>
+              <li><a href="resources.html">資源中心</a></li>
             </ul>
           </div>
           
           <!-- Products -->
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <h5 class="footer-title">產品服務</h5>
             <ul class="footer-links">
               <li><a href="products.html#pathology">病理系統</a></li>
               <li><a href="products.html#dashboard">醫療儀器數據儀表板</a></li>
               <li><a href="products.html#game">手機遊戲開發</a></li>
-              <li><a href="resources.html">資源中心</a></li>
             </ul>
           </div>
           
