@@ -75,7 +75,7 @@
           <!-- Company Info -->
           <div class="col-lg-5 col-md-6">
             <div class="footer-brand">
-              <img src="assets/img/company-logos/logo-mark.png" style="height: 48px;">
+              <img src="assets/img/company-logos/logo-white-mark.png" style="height: 48px;">
               湛盧科技有限公司
             </div>
             <div class="footer-brand-en">Zhan-Lu Technology Co., Ltd. (ZLTC)</div>
