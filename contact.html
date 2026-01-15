@@ -161,52 +161,16 @@
             <div class="text-center mb-4">
               <h3 class="fw-semibold mb-2">
                 <i class="bi bi-pencil-square me-2 text-primary-custom"></i>
-                線上表單（選用）
+                線上表單
               </h3>
               <p class="text-muted">
                 如果您希望透過表單聯繫我們，可以使用以下方式
               </p>
             </div>
             
-            <!-- Option 1: Google Forms Embed (Placeholder) -->
-            <div class="p-4 bg-light rounded mb-4">
-              <h5 class="fw-semibold mb-3">
-                <i class="bi bi-google me-2"></i>方式一：Google 表單
-              </h5>
-              <p class="text-muted mb-3" style="font-size: 0.9375rem;">
-                您可以將 Google 表單嵌入此處。請將下方的 iframe src 替換為您的 Google 表單網址。
-              </p>
-              <div class="bg-white border rounded p-5 text-center">
-                <i class="bi bi-file-earmark-text display-4 text-muted mb-3"></i>
-                <p class="text-muted mb-2">Google 表單嵌入區域</p>
-                <code style="font-size: 0.8125rem;">
-                  &lt;iframe src="YOUR_GOOGLE_FORM_URL" ...&gt;&lt;/iframe&gt;
-                </code>
-              </div>
-              <!-- 
-              實際嵌入時使用：
-              <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" 
-                      width="100%" 
-                      height="800" 
-                      frameborder="0" 
-                      marginheight="0" 
-                      marginwidth="0">
-                載入中…
-              </iframe>
-              -->
-            </div>
-            
-            <!-- Option 2: Formspree Instructions -->
+            <!-- Formspree Form -->
             <div class="p-4 bg-light rounded">
-              <h5 class="fw-semibold mb-3">
-                <i class="bi bi-send me-2"></i>方式二：Formspree
-              </h5>
-              <p class="text-muted mb-3" style="font-size: 0.9375rem;">
-                Formspree 是一個無需後端的表單服務。您可以在 <a href="https://formspree.io" target="_blank" rel="noopener">formspree.io</a> 註冊帳號，取得專屬的表單端點後，將下方的 action 網址替換即可使用。
-              </p>
-              
-              <!-- Formspree Form (Template) -->
-              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="bg-white border rounded p-4">
+              <form action="https://formspree.io/f/xnjjnbvk" method="POST" class="bg-white border rounded p-4">
                 <div class="mb-3">
                   <label for="name" class="form-label">姓名 <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" id="name" name="name" required>
@@ -234,14 +198,10 @@
                   <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary-custom" disabled>
-                    <i class="bi bi-send me-2"></i>送出（請先設定 Formspree）
+                  <button type="submit" class="btn btn-primary-custom">
+                    <i class="bi bi-send me-2"></i>送出
                   </button>
                 </div>
-                <p class="text-muted text-center mt-3 mb-0" style="font-size: 0.8125rem;">
-                  <i class="bi bi-info-circle me-1"></i>
-                  請將 form action 中的 YOUR_FORM_ID 替換為您的 Formspree 表單 ID 後，移除按鈕的 disabled 屬性即可啟用。
-                </p>
               </form>
             </div>
             
