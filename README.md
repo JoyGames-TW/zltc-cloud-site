@@ -229,7 +229,7 @@ OfficialWebsite/
 **湛盧科技有限公司**  
 Zhan-Lu Technology Co., Ltd. (ZLTC)
 
-- Email: [joygames.tw@gmail.com](mailto:joygames.tw@gmail.com)
+- Email: [contact@zltc-cloud.net](mailto:contact@zltc-cloud.net)
 
 ---
 

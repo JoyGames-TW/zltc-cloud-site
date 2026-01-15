@@ -111,7 +111,7 @@
             <h5 class="footer-title">聯絡我們</h5>
             <div class="footer-contact-item">
               <i class="bi bi-envelope" style="margin-top: -0.125rem;"></i>
-              <a href="mailto:joygames.tw@gmail.com">joygames.tw@gmail.com</a>
+              <a href="mailto:contact@zltc-cloud.net">contact@zltc-cloud.net</a>
             </div>
             <div class="footer-contact-item">
               <i class="bi bi-geo-alt" style="margin-top: -0.125rem;"></i>
