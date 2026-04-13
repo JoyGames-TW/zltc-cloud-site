@@ -102,7 +102,7 @@
             <ul class="footer-links">
               <li><a href="products.html#pathology">病理系統</a></li>
               <li><a href="products.html#dashboard">醫療儀器數據儀表板</a></li>
-              <li><a href="products.html#game">手機遊戲開發</a></li>
+              <li><a href="products.html#customization">企業軟體客製化</a></li>
             </ul>
           </div>
           
